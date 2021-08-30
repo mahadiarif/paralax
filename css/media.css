@@ -1,0 +1,122 @@
+/* X-Small devices (portrait phones, less than 576px) */
+
+@media (min-width: 0px) and (max-width: 575.98px) {
+    /* Menu Start  */
+    .nav-logo h1::before {
+        height: 20px;
+        top: -20px;
+    }
+    #nav-area .nav-link {
+        padding-right: 0px;
+        padding-left: 0px;
+    }
+    #nav-area .nav-item {
+        text-align: right;
+    }
+    header {
+        padding: 10px 0;
+    }
+    .navbar-toggler:focus {
+        box-shadow: none;
+    }
+    /* Menu End  */
+}
+
+
+/* Small devices (landscape phones, less than 768px) */
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+    /* Menu Start  */
+    .nav-logo h1::before {
+        height: 20px;
+        top: -20px;
+    }
+    #nav-area .nav-link {
+        padding-right: 0px;
+        padding-left: 0px;
+    }
+    #nav-area .nav-item {
+        text-align: right;
+    }
+    header {
+        padding: 15px 0;
+    }
+    .navbar-toggler:focus {
+        box-shadow: none;
+    }
+    /* Menu End  */
+}
+
+
+/*  Medium devices (tablets, less than 992px) */
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    /* Menu Start  */
+    .nav-logo h1::before {
+        height: 25px;
+        top: -25px;
+    }
+    #nav-area .nav-item {
+        text-align: right;
+    }
+    #nav-area .nav-link {
+        padding-right: 0px;
+        padding-left: 0px;
+    }
+    .navbar-toggler:focus {
+        box-shadow: none;
+    }
+    header {
+        padding: 20px 0;
+    }
+    .search-btn {
+        padding-left: 0;
+    }
+    /* Menu End  */
+}
+
+
+/*  Large devices (desktops, less than 1200px) */
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    /* Menu Start  */
+    .nav-logo h1::before {
+        height: 30px;
+        top: -30px;
+    }
+    .search-btn {
+        padding-left: 0;
+    }
+    /* Menu End  */
+    /* Banner Start  */
+    .carousel-text {
+        padding: 120px 0;
+    }
+    .carousel-text h1 {
+        margin-bottom: 30px;
+        font-size: 50px;
+    }
+    /* Banner End  */
+}
+
+
+/* X-Large devices (large desktops, less than 1400px) */
+
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+    /* Menu Start  */
+    .search-btn {
+        padding-left: 0;
+    }
+    /* Menu End  */
+}
+
+
+/* XX-Large devices (larger desktops) */
+
+@media (min-width: 1400px) {
+    /* Menu Start  */
+    .search-btn {
+        padding-left: 0;
+    }
+    /* Menu End  */
+}
